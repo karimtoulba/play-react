@@ -12,3 +12,4 @@ const root = createRoot(container);
 
 root.render(<h1>Hello world</h1>);
 root.render(var);
+root.render(<h1>{2+3}</h1>); //prints 5
