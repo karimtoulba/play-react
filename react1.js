@@ -7,4 +7,6 @@ const myDiv = (<div><h1>Hello World</h1></div>);
 // Rendering JSX Elements
 const container = document.getElementById('container');
 const root = createRoot(container);
+
 root.render(<h1>Hello world</h1>);
+root.render(var);
