@@ -16,3 +16,8 @@ root.render(var); //prints variable value
 root.render(<h1>{2+3}</h1>); //prints 5
 root.render(<h1>{var}</h1>); // prints the variable value
 root.render(<img src={imgVar} />); // prints the image
+
+// Advanced JSX Elements 
+
+function clickAlert() { alert('You clicked it!'); }
+<img onClick={clickAlert} />
