@@ -20,3 +20,6 @@ root.render(<img src={imgVar} />); // prints the image
 // Advanced JSX Elements 
 function clickAlert() { alert('You clicked it!'); } // Creating a function to recall below
 <img onClick={clickAlert} /> // onClick or onMouseOver
+
+if (var === 'value') { img = <img src={} /> } 
+else { img = <img src={} /> }
