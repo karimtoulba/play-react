@@ -18,6 +18,5 @@ root.render(<h1>{var}</h1>); // prints the variable value
 root.render(<img src={imgVar} />); // prints the image
 
 // Advanced JSX Elements 
-
-function clickAlert() { alert('You clicked it!'); }
-<img onClick={clickAlert} />
+function clickAlert() { alert('You clicked it!'); } // Creating a function to recall below
+<img onClick={clickAlert} /> // onClick or onMouseOver
