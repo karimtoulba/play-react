@@ -21,5 +21,18 @@ root.render(<img src={imgVar} />); // prints the image
 function clickAlert() { alert('You clicked it!'); } // Creating a function to recall below
 <img onClick={clickAlert} /> // onClick or onMouseOver
 
+// Image value using if else
 if (var === 'value') { img = <img src={} /> } 
 else { img = <img src={} /> }
+
+const newImage = <img src={pics[
+  coinToss() === 'head' ? 'kitty'
+  : 'doggy'
+]} />
+
+// Lists only if value is true
+<ul>
+  <li>Sushi Burrito</li>
+  <li>Rhubarb Pie</li>
+  {!judgmental && <li>Nacho Cheez Straight Out The Jar</li>}
+</ul>
